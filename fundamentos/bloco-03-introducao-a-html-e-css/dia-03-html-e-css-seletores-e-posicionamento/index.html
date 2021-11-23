@@ -4,11 +4,29 @@
     <title>HTML</title>
     <style>
         h1 {
+            font-family: sans-serif;
             font-size: 65px;
             color: orange;
         }
         .FundoCor {
             background-color: gray;
+        }
+        body {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center
+        }
+        p {
+            font-size: 3em;
+        }
+        #listaAmarelo {
+            color: yellow;
+        }
+        #listaVermelho {
+            color: red;
+        }
+        #ListaMarrom {
+            color: brown;
         }
     </style>
   </head>
@@ -16,9 +34,9 @@
     <h1>Exercícios 3.2</h1>
     <p class="FundoCor">Qual é a sua cor favorita?</p>
     <ul id="Lista1" class="FundoCor">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="ListaAmarelo">Amarelo</li>
+      <li id="ListaVermelho">Vermelho</li>
+      <li id="ListaMarrom">Marrom</li>
     </ul>
   </body>
 </html>
