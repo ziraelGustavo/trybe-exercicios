@@ -1,0 +1,25 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+}
+.FundoCor {
+    background-color: gray;
+}
+body {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center
+}
+p {
+    font-size: 3em;
+}
+#listaAmarelo {
+    color: yellow;
+}
+#listaVermelho {
+    color: red;
+}
+#ListaMarrom {
+    color: brown;
+}
